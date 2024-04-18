@@ -3,7 +3,7 @@ import {BsGithub} from "react-icons/bs"
 import {FaGlobe} from "react-icons/fa"
 
 
-const ProjectCard = ({title,des ,src})=>{
+const ProjectCard = ({title,des ,src,githublink,projectlink})=>{
     return(
         <div className="w-full xl:px-12 xl:py-10 p-4 rounded-lg shadow-shadowOne flex flex-col h-auto
         bg-gradient-to-r from-bodyColor to-[#202327] group hover:bg-gradient-to-b
@@ -20,11 +20,11 @@ const ProjectCard = ({title,des ,src})=>{
                         <div className="flex gap-3">
                             <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex
                             justify-center items-center text-gray-400 hover:text-designColor duration-300">
-                                <BsGithub/>
+                                <a href={githublink}><BsGithub/></a>
                             </span>
                             <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex
                             justify-center items-center text-gray-400 hover:text-designColor duration-300">
-                                <FaGlobe/>
+                                <a href={projectlink}><FaGlobe/></a>
                             </span>
                         </div>
                     </div>

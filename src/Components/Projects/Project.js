@@ -13,9 +13,10 @@ const Project = ()=>{
             </div > 
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
                 <ProjectCard
+                    githublink = "https://github.com/abhiJunior/Weather-App"
+                    projectlink = "https://abhijunior.github.io/Weather-App/"
                     title = "Weather App"
-                    des="lorem ipsum dolor amet dlff mera paisa ha toh badi baat hai
-                    hic consequuntur eum"
+                    des="I designed and developed a weather application using vanilla JavaScript, HTML, and CSS. The app provides users with real-time weather updates for their location, displaying key information such as temperature, humidity, wind speed, and weather description. "
                     src="https://images.pexels.com/photos/125510/pexels-photo-125510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 />
                 <ProjectCard
@@ -25,6 +26,7 @@ const Project = ()=>{
                     src="https://images.pexels.com/photos/34577/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600"
                 />
                 <ProjectCard
+                    
                     title = "Book My Show clone"
                     des="lorem ipsum dolor amet dlff mera paisa ha toh badi baat hai
                     hic consequuntur eum"
