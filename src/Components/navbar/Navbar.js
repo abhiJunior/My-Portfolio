@@ -13,7 +13,7 @@ const Navbar = ()=>{
     return (
         <div className="w-full h-24 mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-slate-400 sticky top-0 z-50 bg-bodyColor">
             <div>
-                <img src="https://media.licdn.com/dms/image/D5635AQGMf4xKeSc-QQ/profile-framedphoto-shrink_200_200/0/1711462856751?e=1713762000&v=beta&t=iWV0s6NXvAS0rdJ9C_uF_UScRmpk8ZS55ljRAZdbrPI" alt="logo" className="w-20 h-20 rounded-full shadow"/>
+                <img src="/Photos/logo.jpg" alt="logo" className="w-20 h-20 rounded-full shadow"/>
             </div>
             <div >
                 <ul className="hidden mdl:inline-flex items-center gap-6 lgl:gap-10">
