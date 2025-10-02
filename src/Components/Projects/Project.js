@@ -30,8 +30,8 @@ const Project = () => {
           src="/projectPhotos/movieappPhoto.jpg"
         />
         <ProjectCard
-          githublink="https://bookmyseat-frontend.onrender.com/"
-          projectlink="https://github.com/abhiJunior/movie-app"
+          githublink="https://github.com/abhiJunior/movie-app"
+          projectlink="https://bookmyseat-frontend.onrender.com/login"
           title="BookMySeat"
           des="Full-stack ticket booking platform using MERN stack with real-time seat selection and secure authentication."
           src="/projectPhotos/BookMySeatPhoto.jpg"
