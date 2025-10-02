@@ -8,7 +8,7 @@ const Resume = ()=>{
     const [skill , setSkill] = useState(false)
     return(
         <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
-            <div className="flex justify-center items-center text-center">
+            <div className="flex justify-center items-center text-center  p-2">
                 <Title des="My Resume" title="Motivated recent graduate with strong Development skills seeking entry-level role in Software Engineer" />
             </div>
             <ul className="w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2">

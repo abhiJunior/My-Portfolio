@@ -1,59 +1,62 @@
-import Title from "../layouts/Title"
-import ProjectCard from "./ProjectCard"
-const Project = ()=>{
-    return (
-        <section id="projects"
-            className="w-full py-20 border-b-[1px] border-b-black"
-        >
-            <div className="flex justify-center items-center text-center">
-                <Title
-                    title="VISTI MY PORTOFOLIO AND KEEP YOUR FEEDBACK"
-                    des="My Projects"
-                />
-            </div > 
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
-                <ProjectCard
-                    githublink = "https://github.com/abhiJunior/Weather-App"
-                    projectlink = "https://abhijunior.github.io/Weather-App/"
-                    title = "Weather App"
-                    des="I designed and developed a weather application using vanilla JavaScript, HTML, and CSS. The app provides users with real-time weather updates for their location, displaying key information such as temperature, humidity, wind speed, and weather description. "
-                    src="https://images.pexels.com/photos/125510/pexels-photo-125510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                />
-                <ProjectCard
-                    title = "E-commerce Website"
-                    des="lorem ipsum dolor amet dlff mera paisa ha toh badi baat hai
-                    hic consequuntur eum"
-                    src="https://images.pexels.com/photos/34577/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=600"
-                />
-                <ProjectCard
-                    
-                    title = "Book My Show clone"
-                    des="lorem ipsum dolor amet dlff mera paisa ha toh badi baat hai
-                    hic consequuntur eum"
-                    src="https://images.pexels.com/photos/2265487/pexels-photo-2265487.jpeg?auto=compress&cs=tinysrgb&w=600"
-                />
-                <ProjectCard
-                    title = "Kanban Board"
-                    des="lorem ipsum dolor amet dlff mera paisa ha toh badi baat hai
-                    hic consequuntur eum"
-                    src="https://images.pexels.com/photos/18085329/pexels-photo-18085329/free-photo-of-azabudai-district-name-in-tokyo.jpeg?auto=compress&cs=tinysrgb&w=600"
-                />
-                <ProjectCard
-                    title = "Chatting App"
-                    des="lorem ipsum dolor amet dlff mera paisa ha toh badi baat hai
-                    hic consequuntur eum"
-                    src="https://images.pexels.com/photos/4350099/pexels-photo-4350099.jpeg?auto=compress&cs=tinysrgb&w=600"
-                />
-                <ProjectCard
-                    title = "To Do List"
-                    des="lorem ipsum dolor amet dlff mera paisa ha toh badi baat hai
-                    hic consequuntur eum"
-                    src="https://images.pexels.com/photos/1226398/pexels-photo-1226398.jpeg?auto=compress&cs=tinysrgb&w=600"
-                />
-            </div>
+import Title from "../layouts/Title";
+import ProjectCard from "./ProjectCard";
 
-        </section>
-    )
-}
+const Project = () => {
+  return (
+    <section
+      id="projects"
+      className="w-full px-4 sm:px-8 lg:px-20 py-20 border-b-[1px] border-b-black"
+    >
+      <div className="flex justify-center items-center text-center">
+        <Title
+          title="VISIT MY PORTFOLIO AND LEAVE YOUR FEEDBACK"
+          des="My Projects"
+        />
+      </div>
 
-export default Project
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 xl:gap-14 mt-10">
+        <ProjectCard
+          githublink="https://github.com/abhiJunior/Weather-App"
+          src="/projectPhotos/WeatherPhoto.jpg"
+          projectlink="https://abhijunior.github.io/Weather-App/"
+          title="Weather App"
+          des="I designed and developed a weather application using vanilla JavaScript, HTML, and CSS. The app provides users with real-time weather updates for their location."
+        />
+        <ProjectCard
+          githublink="https://github.com/abhiJunior/movie-app"
+          projectlink="https://movie-app-black-rho.vercel.app/"
+          title="Movie Explorer App"
+          des="Developed a responsive movie browsing platform using React, Redux, and TailwindCSS with real-time data from RapidAPI."
+          src="/projectPhotos/movieappPhoto.jpg"
+        />
+        <ProjectCard
+          githublink="https://bookmyseat-frontend.onrender.com/"
+          projectlink="https://github.com/abhiJunior/movie-app"
+          title="BookMySeat"
+          des="Full-stack ticket booking platform using MERN stack with real-time seat selection and secure authentication."
+          src="/projectPhotos/BookMySeatPhoto.jpg"
+        />
+        <ProjectCard
+          projectlink="https://hockeyrk-website.vercel.app/"
+          title="Hockey Academy Website"
+          des="Modern, SEO-friendly website using React and Vite with responsive layouts and smooth animations, boosting user engagement by 30%."
+          src="/projectPhotos/hockeyPhoto.jpg"
+        />
+        <ProjectCard
+          projectlink="https://padelic-project.vercel.app/"
+          title="Padelic Project"
+          des="Dynamic website for a premier padel club using React and Vite, with real-time court booking and event scheduling."
+          src="/projectPhotos/padelicPhoto.jpg"
+        />
+        <ProjectCard
+          projectlink="https://sanatana-dharma-yatra.vercel.app/"
+          title="Sanatana Dharma Yatra"
+          des="Responsive, SEO-optimized website using React and Vite for promoting spiritual pilgrimages and cultural events."
+          src="/projectPhotos/dharmaPhoto.jpg"
+        />
+      </div>
+    </section>
+  );
+};
+
+export default Project;
